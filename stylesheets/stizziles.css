@@ -1,0 +1,104 @@
+body, div, h1, h2, h3, h4, p, ul, ol, li, dl, dt, dd, img, form, fieldset, blockquote {
+	margin: 0px; padding: 0px; border: 0px;
+}
+
+body {
+	background: #fff;	
+	font-family: 'Signika Negative', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 140%;
+	font-size-adjust: 0.42;
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1 {
+	font: 140%/140% 'Signika Negative', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+a {
+	font-family:'Signika Negative', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size-adjust:0.42;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.highlight {
+	color: #CC2229;
+}
+
+#wrapper {
+}
+
+#masthead {
+	margin: 0 auto;
+	width: 900px; height: 130px;
+	background: #fff url('/images/danger_logo.png') 4px 0 no-repeat;
+}
+
+#container {
+	background: #fff;
+	width: 800px; 
+	margin: 0 auto; 
+}
+
+#header {
+	height: 125px;
+}
+	
+#header h2 {
+	display: block;
+	line-height: 150%;
+	margin: 0 0 20px 0;
+	}
+	
+#header a:link, a:visited {
+	color: #000;
+	text-decoration: none;	
+}
+	
+#header a:hover, a:active {
+	color:  #fcb040;
+	text-decoration: none;
+}
+	
+#portfolio {
+	margin: 0 0 0 0;
+}	
+	
+#portfolio h2 {
+	margin: 0 0 10px 0;
+}
+	
+#portfolio ul {
+	list-style: none;
+}
+		
+#portfolio ul li {
+	width: 220px; height: 150px;
+	float: left; padding: 10px; margin: 0 20px 20px 0;
+	border: 2px solid #000;
+}
+
+#portfolio ul li:hover {
+	border: 2px solid #fcb040;
+}
+		
+#footer {
+	clear: both; 
+	margin: 0 auto;
+	width: 800px; height: 100px;
+}
+	
+#footer p.copyright {
+	clear: both; margin: 5px 40px 0 0; font: 100%; text-align: center;
+}
+
+.clear:after {
+	content: "";
+	display: block; visibility: hidden; clear: both;
+}
+
+.clear {zoom: 1;}
+

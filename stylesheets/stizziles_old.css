@@ -1,0 +1,161 @@
+body, div, h1, h2, h3, h4, p, ul, ol, li, dl, dt, dd, img, form, fieldset, blockquote {
+	margin: 0px; padding: 0px; border: 0px;
+}
+
+body {
+	font-family:"Futura Regular", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size-adjust:0.42;
+	font-weight:normal;
+	font-style:normal;
+	background-color: #F1F8FE;
+	background-image:url('/images/bgstripe.gif');
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family:"Futura Regular", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+
+h2 {
+	font-family:"Futura Regular", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 160%;
+	font-weight:normal;
+	font-style:normal;
+}
+
+a {
+	font-family:"Futura Regular", Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size-adjust:0.42;
+	font-weight:normal;
+	font-style:normal;
+}
+
+.highlight {
+	color: #CC2229;
+}
+
+#wrapper {
+}
+
+#masthead {
+	margin: 0 auto;
+	width: 900px;
+	height: 170px;
+	background: url('/images/cwheader.png');
+	background-repeat: no-repeat;
+	background-color:white;
+	border-left:2px solid #CC2229;
+	border-right:2px solid #CC2229;
+	padding: 70px 0 0 100px;
+}
+
+#container {
+	background-color:white;
+	border-left:2px solid #CC2229;
+	border-right:2px solid #CC2229;
+	width: 900px; 
+	margin: 0 auto; 
+	padding: 0 0 0 100px;
+}
+
+#header {
+	width: 570px;
+	margin: 0 0 40px 0;
+	padding: 0 205px 20px 0;
+	border-bottom: 1px solid #CC2229;
+	background: url('/images/headerarrow.png');
+	background-repeat: no-repeat;
+}
+	
+	#header h2 {
+		display: block;
+		line-height: 150%;
+		margin: 0 0 20px 0;
+	}
+	
+	#header a:link, a:visited {
+		color: #00ACEC;
+		text-decoration:none;	
+	}
+	
+	#header a:hover, a:active {
+		color:  #CC2229;
+		text-decoration: underline;
+	}
+	
+#portfolio {
+	margin: 0 0 0 0;
+}	
+	
+	#portfolio h2 {
+		margin: 0 0 10px 0;
+	}
+	
+	#portfolio ul {
+		list-style: none;
+	}
+		
+		#portfolio ul li {
+			width: 220px; height: 150px;
+			float: left; padding: 10px; margin: 0 23px 23px 0;
+			border: 2px solid #CC2229;
+		}
+		
+#footer {
+	clear: both; 
+	margin: 0 auto;
+	width: 1000px;
+	border-left:2px solid #CC2229;
+	border-right:2px solid #CC2229;
+	border-bottom:25px solid #CC2229;
+	background: url('/images/cwfooter.png');
+	background-repeat: no-repeat;
+	background-color: #CC2229;
+}
+	#footer img {
+		float:left;
+	}
+	
+	#footer h2 {
+		padding: 55px 0 0 0;
+	}
+	
+	#footer a:link, a:visited {
+		color: #00ACEC;
+		text-decoration:none;	
+	}
+	
+	#footer a:hover, a:active {
+		color:  #CC2229;
+		text-decoration: underline;
+	}
+	
+	#footer p.copyright {
+		clear: both; float: right; margin: 5px 40px 0 0; font-size: 11px; color: white;
+	}
+	
+	#footer a.hidden:link {
+		color:  #CC2229; clear: both; float: right; margin: 5px 40px 0 0;
+	}
+
+	#footer a.hidden:visited {
+		color:  #CC2229;clear: both; float: right; margin: 5px 40px 0 0;
+	}
+
+	#footer a.hidden:hover {
+		color:  #CC2229;clear: both; float: right; margin: 5px 40px 0 0;
+	}
+
+	#footer a.hidden:active {
+		color:  #CC2229;clear: both; float: right; margin: 5px 40px 0 0;
+	}
+
+.clear:after {
+	content: "";
+	display: block; visibility: hidden; clear: both;
+}
+
+	.clear {zoom: 1;}
+
